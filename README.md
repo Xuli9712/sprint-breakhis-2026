@@ -1,7 +1,7 @@
 # sprint-breakhis-2026
 Breast cancer histopathology image classification on BreakHis using hand-crafted and deep learning methods.
 
-First please download the BreakHis dataset from a public source. You will get the dataset structure under archive, along with the official split file Folds.csv. Load the data and Folds.csv to enable person-independent 5-fold cross-validation.
+First please download the BreakHis dataset from a public source. You will get the dataset structure under archive/BreaKHis_v1, along with the official split file archive/Folds.csv. Load the data and Folds.csv to enable person-independent 5-fold cross-validation.
 
 Use LBP-SVM.py to train and validate the data with different LBP settings. Open the script and set root_path to the BreakHis dataset folder (e.g. .../archive) and folds_csv to the split file (e.g. .../archive/Folds.csv). The output location can be set using save_dir. You can change the LBP mode using MODE ('grayscale' or 'rgb'). You can also change SCALE, which controls the LBP radius settings, for example [1, 2, 3] for multi-scale LBP.
 
