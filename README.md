@@ -14,6 +14,9 @@ Use inference.py to predict histopathology images in an end-to-end way. Open the
 <img width="700" height="460" alt="SOB_M_DC-14-5287-40-013" src="https://github.com/user-attachments/assets/353b64de-3a76-4044-a512-5b334d82fde7" />
 
 results.csv format:
+
 image_path,prediction,confidence
+
 xxx.png,Benign,0.92
+
 xxx.png,Malignant,0.85
